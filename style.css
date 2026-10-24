@@ -7,7 +7,7 @@ body {
    display: flex;
    background: rgb(3, 3, 105);
    justify-content: space-between;
-   padding: 20px
+   padding: 20px;
 }
 
 ul {
@@ -24,5 +24,97 @@ a {
 
 .logo {
    color: rgb(17, 13, 224);
+}
 
+.main-container {
+   display: flex;
+   background: rgb(239, 235, 235);
+   align-items: flex-start;
+   flex-wrap: wrap;
+   flex: 1;
+   padding: 20px;
+   flex-direction: row;
+}
+
+
+.content {
+   font-size: 20px;
+   flex-wrap: wrap;
+   flex: 1;
+}
+
+.title {
+   color: blue;
+   font-weight: 900;
+
+}
+
+.button {
+   background: blue;
+   padding: 10px;
+   width: 90px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+.style {
+   text-align: center;
+   font-weight: 900;
+   font-size: 22px;
+
+   color: rgb(252, 45, 4);
+   padding: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-container {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   gap: 30px;
+   padding-bottom: 20px;
+
+}
+
+.images {
+   gap: 20px;
+   width: 400px;
+   height: 460px;
+   align-items: center;
+   flex: 1;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   object-fit: cover;
+}
+
+.text {
+   font-size: 20px;
+   font-weight: 900;
+   text-align: center;
+}
+
+ol {
+   list-style: none;
+}
+
+ol a {
+   color: blue;
+   font-weight: 900;
+   text-align: end;
+}
+
+.footer {
+   text-align: center;
+}
+
+.copy {
+   font-size: 20px;
+   color: rgb(252, 45, 4);
+   font-weight: 900;
 }
