@@ -1,6 +1,6 @@
 body {
    font-family: 'Times New Roman', Times, serif;
-   margin: 10px;
+   margin: 0;
 }
 
 .header {
@@ -106,11 +106,13 @@ ol {
 ol a {
    color: blue;
    font-weight: 900;
-   text-align: end;
+   ;
 }
 
 .footer {
    text-align: center;
+   background: peachpuff;
+   padding-top: 20px
 }
 
 .copy {
