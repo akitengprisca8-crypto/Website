@@ -1,7 +1,4 @@
-body {
-   font-family: 'Times New Roman', Times, serif;
-   margin: 0;
-}
+body {}
 
 .header {
    display: flex;
@@ -49,24 +46,13 @@ a {
 
 }
 
-.button {
-   background: blue;
-   padding: 10px;
-   width: 90px;
-   border-radius: 10px;
-   border: none;
-   color: white;
-   cursor: pointer;
-}
-
 .style {
    text-align: center;
    font-weight: 900;
    font-size: 22px;
 
    color: rgb(252, 45, 4);
-   padding: 30px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 40px;
 }
 
 .image-container {
@@ -74,7 +60,8 @@ a {
    align-items: center;
    flex-direction: row;
    gap: 30px;
-   padding-bottom: 20px;
+   padding-bottom: 30px;
+   background: rgb(201, 203, 229);
 
 }
 
@@ -109,10 +96,51 @@ ol a {
    ;
 }
 
+.box-container {
+   display: flex;
+   box-sizing: border-box;
+   max-width: 800px;
+   width: 100%;
+
+   height: 80px;
+   background: rgb(62, 62, 252);
+   justify-content: space-between;
+
+   align-items: center;
+   color: white;
+
+   border-radius: 10px;
+   gap: 20px;
+
+   margin: 0 auto;
+   padding: 15px;
+
+   margin-top: 20px;
+
+
+}
+
+.button {
+   background: rgb(62, 62, 252);
+   border: 1px solid white;
+   cursor: pointer;
+   margin-right: 80px;
+
+   padding: 10px;
+   color: white;
+   border-radius: 10px;
+   font-size: 15px;
+}
+
+.call {
+   font-size: 20px;
+   margin-left: 80px;
+}
+
 .footer {
    text-align: center;
    background: peachpuff;
-   padding-top: 20px
+   line-height: 1;
 }
 
 .copy {
