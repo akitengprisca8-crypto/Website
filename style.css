@@ -97,7 +97,6 @@ ol {
 ol a {
    color: blue;
    font-weight: 900;
-   ;
 }
 
 .box-container {
@@ -145,6 +144,7 @@ ol a {
    text-align: center;
    background: peachpuff;
    line-height: 1;
+   padding-bottom: 12px;
 }
 
 .copy {
